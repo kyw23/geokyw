@@ -1,4 +1,0 @@
-
-# geokyw module
-
-::: geokyw.geokyw
