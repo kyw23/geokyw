@@ -2,7 +2,6 @@
 
 """Tests for `geokyw` package."""
 
-
 import unittest
 
 from geokyw import geokyw
