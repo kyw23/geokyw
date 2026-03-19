@@ -9,7 +9,7 @@
 
 -   Free software: MIT License
 -   Documentation: <https://kyw23.github.io/geokyw>
-    
+
 
 ## Features
 
