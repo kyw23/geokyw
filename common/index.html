@@ -23,7 +23,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -811,20 +811,23 @@
 
 
 <h2 id="geokyw.common.hello_world" class="doc doc-heading">
-<code class="highlight language-python"><span class="n">hello_world</span><span class="p">()</span></code>
+<code class="highlight language-python"><span class="n">hello_world</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;World&#39;</span><span class="p">)</span></code>
 
 
 <a href="#geokyw.common.hello_world" class="headerlink" title="Permanent link">&para;</a></h2>
 
     <div class="doc doc-contents ">
 
-      <p>Prints "Hello World!" to the console.</p>
+      <p>Print a greeting and return it for convenience in scripts and tests.</p>
 
         <details class="quote">
           <summary>Source code in <code>geokyw/common.py</code></summary>
-          <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">hello_world</span><span class="p">():</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Prints &quot;Hello World!&quot; to the console.&quot;&quot;&quot;</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">hello_world</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;World&quot;</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Print a greeting and return it for convenience in scripts and tests.&quot;&quot;&quot;</span>
+
+    <span class="n">greeting</span> <span class="o">=</span> <span class="n">format_greeting</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">greeting</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">greeting</span>
 </code></pre></div>
         </details>
     </div>
