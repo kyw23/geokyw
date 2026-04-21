@@ -14,4 +14,5 @@
 
 ## Features
 
--   TODO
+-   Format a friendly greeting with `geokyw.format_greeting(...)`
+-   Run a minimal CLI with `geokyw hello --name YourName`
